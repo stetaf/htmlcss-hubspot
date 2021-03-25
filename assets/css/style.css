@@ -44,6 +44,10 @@
     background-color: #fff4ef;
 }
 
+.btnOrange {
+    background-color: #fe775a;
+}
+
 .arrow {
     border: solid #364d5f;
     border-width: 0 3px 3px 0;
@@ -153,4 +157,19 @@ i {
     padding-top: 30px;
     font-weight: 600;
     line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.introContent a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 29px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.introContent p:nth-child(4) {
+    margin-top: 15px;
+    font-size: 14px;
 }
