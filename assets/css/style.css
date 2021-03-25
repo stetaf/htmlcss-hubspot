@@ -160,7 +160,7 @@ i {
     margin-bottom: 50px;
 }
 
-.introContent a {
+.introContent a, .horizProduct a{
     text-decoration: none;
     color: white;
     padding: 20px 29px;
@@ -203,4 +203,32 @@ i {
     font-size: 17px;
     font-weight: 600;
     line-height: 30px;
+}
+
+.horizProduct {
+    height: 350px;
+    text-align: left;
+    background: white;
+    box-shadow: 0 0 10px lightgrey;
+    border-radius: 5px
+}
+
+.horizProduct .col2:nth-child(1) {
+    width: 30%;
+    text-align: center;
+}
+
+.horizProduct img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.horizProduct a {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.col2 > div {
+    height: 50%;
 }
