@@ -91,9 +91,18 @@
     margin-top: -1px;
 }
 
+.customHr {
+    height: 1px;
+    border: 1px solid #33475b;
+    position: absolute;
+    top: 81%;
+    right: 11%;
+    width: 550px;
+}
+
 /* Page */
 body {
-    background-color: red;
+    background-color: #f4f9fd;
     color: #364d5f;
     font-family: 'Montserrat', sans-serif;
 }
@@ -134,6 +143,10 @@ i {
 .col2 ul li, .col3 ul li {
     list-style: none;
     display: inline-block;
+}
+
+.col2 > :nth-child(2) {
+    margin-right: 10px;
 }
 
 .vertical-divisor {
@@ -286,12 +299,13 @@ i {
     font-size: 20px;
 }
 
-.horizProduct h4::after {
-    content: "_____________________________";
+.horizProduct hr {
+    width: 50px;
+    display: absolute;
 }
 
 .hubCrm {
-    transform: translate(0, 50%);
+    transform: translate(0, 45%);
 }
 
 .horizProduct li {
