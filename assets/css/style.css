@@ -28,6 +28,10 @@
     float: left;
 }
 
+.medImg {
+    width: 150px !important;
+}
+
 .alRght {
     text-align: right;
 }
@@ -58,6 +62,14 @@
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.orangeCheck {
+    color: white;
+    background: #fe775a;
+    padding: 1px 4px;
+    border-radius: 50%;
+    font-size: 13px;
 }
 
 /* Page */
@@ -218,6 +230,11 @@ i {
     text-align: center;
 }
 
+.horizProduct .col2:nth-child(2) {
+    width: 70%;
+    text-align: left;
+}
+
 .horizProduct img {
     height: 150px;
     width: 150px;
@@ -231,4 +248,27 @@ i {
 
 .col2 > div {
     height: 50%;
+}
+
+.horizProduct p, .horizProduct h4, .horizProduct ul {
+    margin: 20px 0px;
+    width: 80%;
+}
+
+.horizProduct h3{
+    font-size: 25px;
+}
+
+.horizProduct h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.hubCrm {
+    transform: translate(0, 50%);
+}
+
+.horizProduct li {
+    font-weight: 600;
+    margin-right: 15px;
 }
