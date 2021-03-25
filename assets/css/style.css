@@ -30,7 +30,7 @@
 
 .col3 {
     width: calc(90%/3);
-    height: 500px;
+    height: 650px;
     float: left;
     border-radius: 5px;
 }
@@ -82,6 +82,7 @@
     padding: 1px 4px;
     border-radius: 50%;
     font-size: 13px;
+    margin-right: 10px;
 }
 
 /* Page */
@@ -124,7 +125,7 @@ i {
     margin-right: 5px;
 }
 
-.col2 ul li {
+.col2 ul li, .col3 ul li {
     list-style: none;
     display: inline-block;
 }
@@ -266,11 +267,11 @@ i {
     width: 80%;
 }
 
-.horizProduct h3{
+.horizProduct h3, .verticalProducts h3{
     font-size: 25px;
 }
 
-.horizProduct h4{
+.horizProduct h4, .col3 h4{
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -290,4 +291,45 @@ i {
 
 .verticalProducts .col3:nth-child(2) {
     margin: 0 5%;
+}
+
+.col3 img {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100px;
+}
+
+.col3 p {
+    margin: 25px 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.col3 hr {
+    margin: 18% 10% 10% 10%;
+    border: 1px solid #364d5f;
+}
+
+.col3 ul li {
+    text-align: left;
+    display: block;
+    margin-left: 10%;
+    font-weight: 600;
+}
+
+.col3 ul {
+    margin-top: 25px;
+}
+
+.verticalProducts a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 29px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.verticalProducts > .col3 > div {
+    padding: 65px 0px;
 }
