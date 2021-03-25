@@ -11,6 +11,10 @@
     content: "";
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 70%;
     margin: auto;
@@ -149,8 +153,12 @@ i {
     margin-right: 10px;
 }
 
+.col2 > img:nth-child(1) {
+    margin-right: 10px;
+}
+
 .vertical-divisor {
-    margin: 0 5px;
+    margin: 0 20px;
 }
 
 .topRow .col2:nth-child(2) {
@@ -162,7 +170,6 @@ i {
     border: 1px solid #fe775a;
     padding: 10px 10px;
     border-radius: 5px;
-    text-decoration: none;
     margin: 0 10px;
 }
 
@@ -209,9 +216,8 @@ i {
 }
 
 .introContent a, .horizProduct a{
-    text-decoration: none;
     color: white;
-    padding: 20px 29px;
+    padding: 20px 35px;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 600;
@@ -248,13 +254,13 @@ i {
 
 .mainProducts p {
     margin: 35px 12%;
-    font-size: 17px;
+    font-size: 16.5px;
     font-weight: 600;
     line-height: 30px;
 }
 
 .horizProduct {
-    height: 350px;
+    height: 380px;
     text-align: left;
     border-radius: 5px;
     margin-bottom: 4%;
@@ -273,7 +279,7 @@ i {
 .horizProduct img {
     height: 150px;
     width: 150px;
-    margin-top: 50px;
+    margin-top: 50px !important;
 }
 
 .horizProduct a {
@@ -347,7 +353,6 @@ i {
 }
 
 .verticalProducts a {
-    text-decoration: none;
     color: white;
     padding: 20px 29px;
     border-radius: 5px;
