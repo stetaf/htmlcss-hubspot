@@ -16,6 +16,12 @@
     margin: auto;
 }
 
+.smallIcon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
 .col2 {
     width: calc(100%/2);
     height: 100%;
@@ -53,8 +59,6 @@ header {
     background-color: #364d5f;
     -webkit-mask: url('../img/globe.svg') no-repeat center;
     mask: url('../img/globe.svg') no-repeat center;
-    height: 20px;
-    width: 20px;
     mask-size: 90%;
     -webkit-mask-size: 90%;
     display: inline-block;
@@ -72,4 +76,22 @@ header {
 
 .vertical-divisor {
     margin: 0 5px;
+}
+
+.topRow .col2:nth-child(2) {
+    text-align: right;
+}
+
+.medBtn {
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.medBtn:nth-child(3) {
+    color: white;
+    background-color: #fe775a;;
 }
