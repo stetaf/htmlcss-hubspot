@@ -30,7 +30,7 @@
 
 .col3 {
     width: calc(90%/3);
-    height: 650px;
+    height: 685px;
     float: left;
     border-radius: 5px;
 }
@@ -296,7 +296,8 @@ i {
 .col3 img {
     margin-top: 20px;
     margin-bottom: 25px;
-    width: 100px;
+    width: 120px !important;
+    height: 120px;
 }
 
 .col3 p {
