@@ -183,3 +183,24 @@ i {
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
 }
+
+/* Products */
+.mainProducts > .container {
+    text-align: center;
+}
+
+.mainProducts > .container img {
+    width: 20%;
+    margin-top: 3%;
+}
+
+.mainProducts h2 {
+    font-size: 35px;
+}
+
+.mainProducts p {
+    margin: 35px 12%;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+}
