@@ -40,6 +40,10 @@
     background-color: white;
 }
 
+.bgLightOrange {
+    background-color: #fff4ef;
+}
+
 .arrow {
     border: solid #364d5f;
     border-width: 0 3px 3px 0;
@@ -126,4 +130,27 @@ i {
 
 .bottomRMenu li{
     margin: 0 10px;
+}
+
+/* Introduction */
+.imgBck {
+    text-align: right;
+}
+
+.introContent {
+    position: absolute;
+    left: 15%;
+    padding-top: 3%;
+    width: 35%;
+}
+
+.introContent h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.introContent p {
+    padding-top: 30px;
+    font-weight: 600;
+    line-height: 30px;
 }
