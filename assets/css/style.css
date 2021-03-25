@@ -79,10 +79,16 @@
 .orangeCheck {
     color: white;
     background: #fe775a;
-    padding: 1px 4px;
     border-radius: 50%;
     font-size: 13px;
     margin-right: 10px;
+}
+
+.orangeCheck i {
+    font-size: 12px;
+    padding: 1px 2px;
+    margin-left: 1px;
+    margin-top: -1px;
 }
 
 /* Page */
@@ -159,6 +165,10 @@ i {
 
 .bottomRMenu li{
     margin: 0 10px;
+}
+
+.bottomRMenu i {
+    margin-left: 10px;
 }
 
 /* Introduction */
