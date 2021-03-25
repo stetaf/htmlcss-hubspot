@@ -187,6 +187,10 @@ i {
     margin: 0 10px;
 }
 
+.bottomRMenu a {
+    color: #364d5f;
+}
+
 .bottomRMenu i {
     margin-left: 10px;
 }
