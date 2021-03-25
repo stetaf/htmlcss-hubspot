@@ -173,3 +173,13 @@ i {
     margin-top: 15px;
     font-size: 14px;
 }
+
+.imgCompl {
+    position: absolute;
+    background-color: #afebe4;
+    height: 82px;
+    width: 100%;
+    top: 812px;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
