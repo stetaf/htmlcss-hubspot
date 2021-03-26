@@ -131,12 +131,9 @@ i {
 }
 
 .smallGlobe {
-    background-color: #364d5f;
-    -webkit-mask: url('../img/globe.svg') no-repeat center;
-    mask: url('../img/globe.svg') no-repeat center;
-    mask-size: 90%;
-    -webkit-mask-size: 90%;
-    display: inline-block;
+    vertical-align: text-top;
+    font-size: 17px;
+    color: #364d5f;
 }
 
 .col2 span {
