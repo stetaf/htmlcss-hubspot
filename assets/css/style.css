@@ -372,7 +372,7 @@ header .topRow {
     margin-top: 25px;
 }
 
-.verticalProducts a {
+.verticalProducts a, .bottomSec .bottomRow a {
     color: white;
     padding: 20px 29px;
     border-radius: 5px;
@@ -451,11 +451,14 @@ header .topRow {
     vertical-align: text-bottom;
 }
 
-/* Bottom */
+/*
+ Bottom 
+*/
 .bottomSec {
     height: 760px;
 }
 
+/* Top Row */
 .bottomSec .topRow {
     height: 270px;
 }
@@ -481,7 +484,7 @@ header .topRow {
     transform: translate(25%, 50px);
 }
 
- .bottomSec .topRow .col2 > .col4 {
+.bottomSec .topRow .col2 > .col4 {
     width: 150px;
 } 
 
@@ -491,4 +494,32 @@ header .topRow {
 
 .topRow .col2 > .col4:nth-child(3) {
     margin-left: 1%;
+}
+
+/* Bottom Row */
+.bottomRow  h2 {
+    font-size: 35px;
+}
+
+.bottomRow .col2 > p {
+    line-height: 25px;
+}
+
+.bottomSec .bottomRow {
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.bottomSec .bottomRow .col2:nth-child(1) {
+    width: 40%;
+}
+
+.bottomRow .btnOrange {
+    margin: 45px 0;
+    display: inline-block;
+    padding: 25px 40px !important;
+}
+
+.bottomRow .col2 > p:last-child {
+    font-size: 15px;
 }
