@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+ul li  {
+    list-style: none;
+}
+
 .container {
     width: 70%;
     margin: auto;
@@ -82,6 +86,14 @@ a {
 
 .btnOrange {
     background-color: #fe775a;
+}
+
+.btnSupp {
+    background-color: #DADEE0;
+    color: #364d5f;
+    padding: 10px 9px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .arrow {
@@ -157,7 +169,6 @@ header .topRow {
 }
 
 .col2 ul li, .col3 ul li {
-    list-style: none;
     display: inline-block;
 }
 
@@ -539,6 +550,25 @@ header .topRow {
 
 footer {
     background-color: #364d5f;
-    color: white;
+    color:#DADEE0 !important;
     height: 580px;
+}
+
+footer .col4 {
+    text-align: left;
+    width: calc(97%/4);
+}
+
+footer ul {
+    line-height: 40px;
+}
+
+footer a {
+    color: #DADEE0;
+}
+
+footer li i {
+    width: 15px;
+    height: 15px;
+    margin-right: 18px;
 }
