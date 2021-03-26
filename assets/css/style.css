@@ -135,7 +135,7 @@ i {
     line-height: 80px;
 }
 
-.topRow {
+header .topRow {
     border-bottom: 1px solid #364d5f;
 }
 
@@ -448,5 +448,28 @@ i {
 /* Bottom */
 .bottomSec {
     height: 760px;
-    
+}
+
+.bottomSec .topRow {
+    height: 270px;
+}
+
+.bottomSec .topRow div:first-child {
+    width: 30%;
+    padding: 40px 7% 0 7%;
+    line-height: 30px;
+}
+
+.bottomSec h2 {
+    font-size: 50px;
+    padding: 25px 0px;
+}
+
+.bottomSec p {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.bottomSec .topRow div:nth-child(2) {
+    width: 70%;
 }
