@@ -262,6 +262,7 @@ header .topRow {
 .introContent p:nth-child(4) {
     margin-top: 15px;
     font-size: 14px;
+    font-weight: normal;
 }
 
 .imgCompl {
@@ -291,7 +292,6 @@ header .topRow {
 .mainProducts p {
     margin: 35px 12%;
     font-size: 16.5px;
-    font-weight: 600;
     line-height: 30px;
 }
 
@@ -368,8 +368,8 @@ header .topRow {
 
 .col3 p {
     margin: 25px 30px;
-    font-weight: 600;
     line-height: 30px;
+    font-size: 19.5px;
 }
 
 .col3 hr {
@@ -403,7 +403,7 @@ header .topRow {
 /* Reviews */
 .numbersSec {
     height: 760px;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .numbersIntro {
@@ -537,7 +537,7 @@ header .topRow {
 }
 
 .bottomRow .col2 > p:last-child {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .bottomRow .womanImg {
