@@ -39,6 +39,12 @@ a {
     border-radius: 5px;
 }
 
+.col4 {
+    width: calc(100%/4);
+    text-align: center;
+    float: left;
+}
+
 .boxCard {
     background: white;
     box-shadow: 0 0 10px lightgrey;
@@ -386,9 +392,49 @@ i {
 
 .numbersIntro h2 {
     font-size: 36px;
-    padding: 50px 0 40px 0;
+    padding-bottom: 35px;
 }
 
 .numbersIntro p {
     font-size: 18px;
+}
+
+.siteNumbers {
+    height: 320px;
+    margin-top: 50px;
+    color: white;
+}
+
+.topElem {
+    height: 200px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.botElem {
+    height: 200px;
+    border-right: 1px solid white;
+}
+
+.topElem > img, .botElem > img {
+    margin-top: 20px;
+}
+
+.topElem > div, .botElem > div {
+    padding: 20px 0;
+}
+
+.topElem > p, .botElem p {
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.bigNumber {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.plusElem {
+    font-size: 30px;
+    vertical-align: text-bottom;
 }
