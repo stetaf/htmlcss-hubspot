@@ -81,11 +81,9 @@ a {
 }
 
 .orangeCheck {
-    color: white;
-    background: #fe775a;
-    border-radius: 50%;
-    font-size: 13px;
+    color: #fe775a;
     margin-right: 10px;
+    vertical-align: initial;
 }
 
 .orangeCheck i {
@@ -207,7 +205,7 @@ i {
 
 .introContent h1 {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .introContent p {
