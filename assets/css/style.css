@@ -289,6 +289,10 @@ header .topRow {
     font-size: 35px;
 }
 
+.mainProducts .mainPrSub {
+    font-size: 19px;
+}
+
 .mainProducts p {
     margin: 35px 12%;
     font-size: 16.5px;
