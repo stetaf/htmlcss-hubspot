@@ -484,3 +484,11 @@ header .topRow {
  .bottomSec .topRow .col2 > .col4 {
     width: 150px;
 } 
+
+.topRow .col2 > .col4:nth-child(3), .topRow .col2 > .col4:nth-child(4) {
+    text-align: left;
+}
+
+.topRow .col2 > .col4:nth-child(3) {
+    margin-left: 1%;
+}
