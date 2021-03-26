@@ -51,11 +51,11 @@ ul li  {
 }
 
 .alignLeft {
-    text-align: left;
+    text-align: left !important;
 }
 
 .alignRight {
-    text-align: right;
+    text-align: right !important;
 }
 
 .boxCard {
