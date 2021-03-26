@@ -108,7 +108,8 @@ a {
 body {
     background-color: #f4f9fd;
     color: #364d5f;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
