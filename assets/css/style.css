@@ -406,13 +406,13 @@ i {
 }
 
 .topElem {
-    height: 200px;
+    height: 185px;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
 }
 
 .botElem {
-    height: 200px;
+    height: 185px;
     border-right: 1px solid white;
 }
 
@@ -426,12 +426,12 @@ i {
 }
 
 .topElem > div, .botElem > div {
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .topElem > p, .botElem p {
     font-size: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .bigNumber {
