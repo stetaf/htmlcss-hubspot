@@ -54,6 +54,12 @@ a {
     width: 150px !important;
 }
 
+.indLogo {
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
 .alRght {
     text-align: right;
 }
@@ -168,7 +174,7 @@ header .topRow {
 }
 
 .topRow .col2:nth-child(2) {
-    text-align: right;
+    text-align: center;
 }
 
 .medBtn {
@@ -454,7 +460,7 @@ header .topRow {
     height: 270px;
 }
 
-.bottomSec .topRow div:first-child {
+.bottomSec .topRow > div:first-child {
     width: 30%;
     padding: 40px 7% 0 7%;
     line-height: 30px;
@@ -470,6 +476,11 @@ header .topRow {
     margin-top: 15px;
 }
 
-.bottomSec .topRow div:nth-child(2) {
-    width: 70%;
+.bottomSec .topRow > div:nth-child(2) {
+    width: 50%;
+    transform: translate(25%, 50px);
 }
+
+ .bottomSec .topRow .col2 > .col4 {
+    width: 150px;
+} 
