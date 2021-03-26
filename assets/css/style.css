@@ -523,3 +523,12 @@ header .topRow {
 .bottomRow .col2 > p:last-child {
     font-size: 15px;
 }
+
+.bottomRow .womanImg {
+    text-align: right;
+    transform: translate(12%, 0%);
+}
+
+.womanImg img {
+    width: 320px;
+}
