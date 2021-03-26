@@ -131,8 +131,8 @@ ul li  {
     border: 1px solid #33475b;
     position: absolute;
     top: 75%;
-    right: 11%;
-    width: 550px;
+    right: 25%;
+    width: 450px;
 }
 
 /* Page */
@@ -296,7 +296,7 @@ header .topRow {
 }
 
 .horizProduct {
-    height: 380px;
+    height: 345px;
     text-align: left;
     border-radius: 5px;
     margin-bottom: 4%;
@@ -329,7 +329,7 @@ header .topRow {
 
 .horizProduct p, .horizProduct h4, .horizProduct ul {
     margin: 20px 0px;
-    width: 80%;
+    width: 70%;
 }
 
 .horizProduct h3, .verticalProducts h3{
@@ -556,7 +556,7 @@ header .topRow {
 footer {
     background-color: #364d5f;
     color:#DADEE0 !important;
-    height: 630px;
+    height: 610px;
 }
 
 footer h4 {
@@ -575,10 +575,12 @@ footer .bottomRow {
 footer .col4 {
     text-align: left;
     width: calc(97%/4);
+    margin-top: 10px;
 }
 
 footer ul {
     line-height: 40px;
+    margin-top: -10px;
 }
 
 footer a {
@@ -606,7 +608,7 @@ footer .bottomRow ul li {
 
 footer .col2 {
     height: 100px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 footer .imgSite {
