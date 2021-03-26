@@ -380,7 +380,7 @@ i {
 
 /* Reviews */
 .numbersSec {
-    height: 650px;
+    height: 760px;
     margin-top: 45px;
 }
 
@@ -416,8 +416,13 @@ i {
     border-right: 1px solid white;
 }
 
+.last {
+    border-right: 0px;
+}
+
 .topElem > img, .botElem > img {
     margin-top: 20px;
+    height: 35px;
 }
 
 .topElem > div, .botElem > div {
