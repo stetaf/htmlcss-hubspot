@@ -20,6 +20,7 @@ ul li  {
 }
 
 .container {
+    height: 100%;
     width: 70%;
     margin: auto;
 }
@@ -551,7 +552,16 @@ header .topRow {
 footer {
     background-color: #364d5f;
     color:#DADEE0 !important;
-    height: 580px;
+    height: 630px;
+}
+
+footer .topRow {
+    height: 65%;
+}
+
+footer .bottomRow {
+    height: 35%;
+    text-align: center;
 }
 
 footer .col4 {
@@ -571,4 +581,9 @@ footer li i {
     width: 15px;
     height: 15px;
     margin-right: 18px;
+}
+
+footer .bottomRow ul li {
+    display: inline-block;
+    margin: 0 20px 10px 0px;
 }
