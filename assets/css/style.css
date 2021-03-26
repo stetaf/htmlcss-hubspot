@@ -193,7 +193,11 @@ i {
 
 /* Introduction */
 .imgBck {
-    text-align: right;
+    /* text-align: right; */
+    background: url(../img/jumbotron.png);
+    height: 650px;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
 }
 
 .introContent {
@@ -245,7 +249,7 @@ i {
 
 .mainProducts > .container img {
     width: 20%;
-    margin-top: 3%;
+    margin-top: 7%;
 }
 
 .mainProducts h2 {
