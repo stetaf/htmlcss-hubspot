@@ -50,6 +50,14 @@ ul li  {
     float: left;
 }
 
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
 .boxCard {
     background: white;
     box-shadow: 0 0 10px lightgrey;
@@ -63,10 +71,6 @@ ul li  {
     vertical-align: middle;
     display: inline-block;
     margin: auto;
-}
-
-.alRght {
-    text-align: right;
 }
 
 .bgLightBlue {
@@ -555,12 +559,16 @@ footer {
     height: 630px;
 }
 
+footer h4 {
+    color: white;
+}
+
 footer .topRow {
-    height: 65%;
+    height: 70%;
 }
 
 footer .bottomRow {
-    height: 35%;
+    height: 30%;
     text-align: center;
 }
 
@@ -583,7 +591,28 @@ footer li i {
     margin-right: 18px;
 }
 
+footer .bottomRow .col2 p {
+    line-height: 0px;
+}
+
 footer .bottomRow ul li {
     display: inline-block;
     margin: 0 20px 10px 0px;
 }
+
+.siteLegal:nth-child(2){
+    margin: 0;
+}
+
+footer .col2 {
+    height: 100px;
+    margin-top: 35px;
+}
+
+footer .imgSite {
+    background-image: url("../img/logo-white.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 50px;
+}
+
