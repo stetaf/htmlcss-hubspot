@@ -452,7 +452,7 @@ header .topRow {
 }
 
 /*
- Bottom 
+    Bottom 
 */
 .bottomSec {
     height: 760px;
@@ -531,4 +531,14 @@ header .topRow {
 
 .womanImg img {
     width: 320px;
+}
+
+/* 
+    Footer
+*/
+
+footer {
+    background-color: #364d5f;
+    color: white;
+    height: 580px;
 }
