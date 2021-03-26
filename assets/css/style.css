@@ -377,3 +377,18 @@ i {
     height: 650px;
     margin-top: 45px;
 }
+
+.numbersIntro {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.numbersIntro h2 {
+    font-size: 36px;
+    padding: 50px 0 40px 0;
+}
+
+.numbersIntro p {
+    font-size: 18px;
+}
