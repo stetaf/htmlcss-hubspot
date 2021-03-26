@@ -64,6 +64,10 @@ a {
     background-color: #fff4ef;
 }
 
+.bgGradientBlue {
+    background: linear-gradient(90deg, #00A8BA 0%, #00B9A8 100%);
+}
+
 .btnOrange {
     background-color: #fe775a;
 }
@@ -366,4 +370,10 @@ i {
 
 .verticalProducts > .col3 > div {
     padding: 65px 0px;
+}
+
+/* Reviews */
+.numbersSec {
+    height: 650px;
+    margin-top: 45px;
 }
