@@ -89,6 +89,10 @@ ul li  {
     background: linear-gradient(90deg, #00A8BA 0%, #00B9A8 100%);
 }
 
+.mainColor{
+    color: #364d5f !important;
+}
+
 .btnOrange {
     background-color: #fe775a;
 }
