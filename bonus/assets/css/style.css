@@ -1,0 +1,668 @@
+/* Utility */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li  {
+    list-style: none;
+}
+
+.container {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+.smallIcon {
+    width: 17px;
+    height: 17px;
+    vertical-align: text-top;
+}
+
+.col2 {
+    width: calc(100%/2);
+    height: 100%;
+    float: left;
+}
+
+.col3 {
+    width: calc(90%/3);
+    height: 685px;
+    float: left;
+    border-radius: 5px;
+}
+
+.col4 {
+    width: calc(100%/4);
+    text-align: center;
+    float: left;
+}
+
+.alignLeft {
+    text-align: left !important;
+}
+
+.alignRight {
+    text-align: right !important;
+}
+
+.boxCard {
+    background: white;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.medImg {
+    width: 150px !important;
+}
+
+.indLogo {
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
+.bgLightBlue {
+    background-color: #f4f9fd;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.bgLightOrange {
+    background-color: #fff4ef;
+}
+
+.bgGradientBlue {
+    background: linear-gradient(90deg, #00A8BA 0%, #00B9A8 100%);
+}
+
+.btnOrange {
+    background-color: #fe775a;
+}
+
+.btnSupp {
+    background-color: #DADEE0;
+    color: #364d5f;
+    padding: 10px 9px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.arrow {
+    border: solid #364d5f;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.orangeCheck {
+    color: #fe775a;
+    margin-right: 10px;
+    vertical-align: initial;
+}
+
+.orangeCheck i {
+    font-size: 12px;
+    padding: 1px 2px;
+    margin-left: 1px;
+    margin-top: -1px;
+}
+
+.customHr {
+    height: 1px;
+    border: 1px solid #33475b;
+    position: absolute;
+    top: 75%;
+    right: 25%;
+    width: 450px;
+}
+
+/* Page */
+body {
+    background-color: #f4f9fd;
+    color: #364d5f;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    font-weight: 600;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.topRow, .bottomRow {
+    height: calc(100%/2);
+    line-height: 80px;
+}
+
+header .topRow {
+    border-bottom: 1px solid #364d5f;
+}
+
+.smallGlobe {
+    vertical-align: text-top;
+    font-size: 17px;
+    color: #364d5f;
+}
+
+.col2 span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.col2 ul li, .col3 ul li {
+    display: inline-block;
+}
+
+.col2 > :nth-child(2) {
+    margin-right: 10px;
+}
+
+.col2 > img:nth-child(1) {
+    margin-right: 10px;
+}
+
+.vertical-divisor {
+    margin: 0 20px;
+}
+
+.topRow .col2:nth-child(2) {
+    text-align: center;
+}
+
+.medBtn {
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.medBtn:nth-child(3) {
+    color: white;
+    background-color: #fe775a;;
+}
+
+.siteLogo {
+    vertical-align: middle;
+    width: 110px;
+}
+
+.bottomRMenu li{
+    margin: 0 10px;
+}
+
+.bottomRMenu a {
+    color: #364d5f;
+}
+
+.bottomRMenu i {
+    margin-left: 10px;
+}
+
+/* Introduction */
+.imgBck {
+    /* text-align: right; */
+    background: url(../img/jumbotron.png);
+    height: 650px;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+.introContent {
+    position: absolute;
+    left: 15%;
+    padding-top: 3%;
+    width: 35%;
+}
+
+.introContent h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.introContent p {
+    padding-top: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.introContent a, .horizProduct a{
+    color: white;
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.introContent p:nth-child(4) {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.imgCompl {
+    position: absolute;
+    background-color: #afebe4;
+    height: 82px;
+    width: 100%;
+    top: 772px;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
+
+/* Products */
+.mainProducts > .container {
+    text-align: center;
+}
+
+.mainProducts > .container img {
+    width: 20%;
+    margin-top: 7%;
+}
+
+.mainProducts h2 {
+    font-size: 35px;
+}
+
+.mainProducts .mainPrSub {
+    font-size: 19px;
+}
+
+.mainProducts p {
+    margin: 35px 12%;
+    font-size: 16.5px;
+    line-height: 30px;
+}
+
+.horizProduct {
+    height: 345px;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+
+.horizProduct .col2:nth-child(1) {
+    width: 30%;
+    text-align: center;
+}
+
+.horizProduct .col2:nth-child(2) {
+    width: 70%;
+    text-align: left;
+}
+
+.horizProduct img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px !important;
+}
+
+.horizProduct a {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.col2 > div {
+    height: 50%;
+}
+
+.horizProduct p, .horizProduct h4, .horizProduct ul {
+    margin: 20px 0px;
+    width: 70%;
+}
+
+.horizProduct h3, .verticalProducts h3{
+    font-size: 25px;
+}
+
+.horizProduct h4, .col3 h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.horizProduct hr {
+    width: 50px;
+    display: absolute;
+}
+
+.hubCrm {
+    transform: translate(0, 45%);
+}
+
+.horizProduct li {
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.verticalProducts .col3:nth-child(2) {
+    margin: 0 5%;
+}
+
+.col3 img {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 120px !important;
+    height: 120px;
+}
+
+.col3 p {
+    margin: 25px 30px;
+    line-height: 30px;
+    font-size: 19.5px;
+}
+
+.col3 hr {
+    margin: 18% 10% 10% 10%;
+    border: 1px solid #364d5f;
+}
+
+.col3 ul li {
+    text-align: left;
+    display: block;
+    margin-left: 10%;
+    font-weight: 600;
+}
+
+.col3 ul {
+    margin-top: 25px;
+}
+
+.verticalProducts a, .bottomSec .bottomRow a {
+    color: white;
+    padding: 20px 29px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.verticalProducts > .col3 > div {
+    padding: 65px 0px;
+}
+
+/* Reviews */
+.numbersSec {
+    height: 760px;
+    margin-top: 50px;
+}
+
+.numbersIntro {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.numbersIntro h2 {
+    font-size: 36px;
+    padding-bottom: 35px;
+}
+
+.numbersIntro p {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.siteNumbers {
+    height: 320px;
+    margin-top: 50px;
+    color: white;
+}
+
+.topElem {
+    height: 185px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.botElem {
+    height: 185px;
+    border-right: 1px solid white;
+}
+
+.last {
+    border-right: 0px;
+}
+
+.topElem > img, .botElem > img {
+    margin-top: 20px;
+    height: 35px;
+}
+
+.topElem > div, .botElem > div {
+    padding: 15px 0;
+}
+
+.topElem > p, .botElem p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.bigNumber {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.plusElem {
+    font-size: 30px;
+    vertical-align: text-bottom;
+}
+
+/*
+    Bottom 
+*/
+.bottomSec {
+    height: 760px;
+}
+
+/* Top Row */
+.bottomSec .topRow {
+    height: 270px;
+}
+
+.bottomSec .topRow > div:first-child {
+    width: 30%;
+    padding: 40px 7% 0 7%;
+    line-height: 30px;
+}
+
+.bottomSec h2 {
+    font-size: 50px;
+    padding: 25px 0px;
+}
+
+.bottomSec p {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.bottomSec .topRow > div:nth-child(2) {
+    width: 50%;
+    transform: translate(25%, 50px);
+}
+
+.bottomSec .topRow .col2 > .col4 {
+    width: 150px;
+} 
+
+.topRow .col2 > .col4:nth-child(3), .topRow .col2 > .col4:nth-child(4) {
+    text-align: left;
+}
+
+.topRow .col2 > .col4:nth-child(3) {
+    margin-left: 1%;
+}
+
+/* Bottom Row */
+.bottomRow  h2 {
+    font-size: 35px;
+}
+
+.bottomRow .col2 > p {
+    line-height: 25px;
+}
+
+.bottomSec .bottomRow {
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.bottomSec .bottomRow .col2:nth-child(1) {
+    width: 40%;
+}
+
+.bottomRow .btnOrange {
+    margin: 45px 0;
+    display: inline-block;
+    padding: 25px 40px !important;
+}
+
+.bottomRow .col2 > p:last-child {
+    font-size: 14px;
+}
+
+.bottomRow .womanImg {
+    text-align: right;
+    transform: translate(12%, 0%);
+}
+
+.womanImg img {
+    width: 320px;
+}
+
+/* 
+    Footer
+*/
+
+footer {
+    background-color: #364d5f;
+    color:#DADEE0 !important;
+    height: 610px;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer .topRow {
+    height: 70%;
+}
+
+footer .bottomRow {
+    height: 30%;
+    text-align: center;
+}
+
+footer .col4 {
+    text-align: left;
+    width: calc(97%/4);
+    margin-top: 10px;
+}
+
+footer ul {
+    line-height: 40px;
+    margin-top: -10px;
+}
+
+footer a {
+    color: #DADEE0;
+}
+
+footer li i {
+    width: 15px;
+    height: 15px;
+    margin-right: 18px;
+}
+
+footer .bottomRow .col2 p {
+    line-height: 0px;
+}
+
+footer .bottomRow ul li {
+    display: inline-block;
+    margin: 0 20px 10px 0px;
+}
+
+.siteLegal:nth-child(2){
+    margin: 0;
+}
+
+footer .col2 {
+    height: 100px;
+    margin-top: 40px;
+}
+
+footer .imgSite {
+    background-image: url("../img/logo-white.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 50px;
+}
+
+/* 
+Bonus 
+*/
+
+/* Dropdown menu */
+.dropdownMenu {
+    position: relative;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #364d5f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    line-height: normal;
+    text-align: left;
+    z-index: 2;
+}
+
+.dropdownContent > a {
+    line-height: 30px;
+}
+
+#menu1:hover #drop1, #menu2:hover #drop2, #menu3:hover #drop3, #menu4:hover #drop4, #menuLang:hover #dropLang {
+    display: block;
+}
+
+/* Chat icon */
+.chatIcon {
+    position: fixed;
+    top: 95vh;
+    left: 95vw;
+    background: white;
+    border: 2px solid #364d5f;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    z-index: 2;
+}
