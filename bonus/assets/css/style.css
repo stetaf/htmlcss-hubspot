@@ -657,3 +657,7 @@ Bonus
     font-size: 35px;
     z-index: 2;
 }
+
+.chatIcon a {
+    color: #364d5f;
+}
