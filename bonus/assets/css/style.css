@@ -237,9 +237,9 @@ header .topRow {
 
 .introContent p {
     padding-top: 30px;
-    font-weight: 600;
     line-height: 30px;
     margin-bottom: 50px;
+    font-size: 19px;
 }
 
 .introContent a, .horizProduct a{
