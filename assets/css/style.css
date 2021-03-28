@@ -342,7 +342,6 @@ header .topRow {
 }
 
 .horizProduct li {
-    font-weight: 600;
     margin-right: 15px;
 }
 
@@ -372,7 +371,6 @@ header .topRow {
     text-align: left;
     display: block;
     margin-left: 10%;
-    font-weight: 600;
 }
 
 .col3 ul {
