@@ -637,14 +637,61 @@ Bonus
 }
 
 .dropdownContent p {
-    font-size: 13px !important;
+    font-size: 12.5px !important;
     margin: 0;
     line-height: 20px;
+}
+
+.dropdownHr {
+    width: 100%;
+    margin: 2% 0;
 }
 
 .dropdownContent .col3 {
     width: calc(100%/3);
     height: unset;
+}
+
+.ddRMenu {   
+    width: 400px;
+}
+
+#drop1 .img, #drop1 div {
+    float: left;
+    margin: 7px 5px 9px 5px;
+}
+
+#drop1 .img {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f9fd;
+    background-size: 50%;
+}
+
+#img1 {
+    background: url('https://f.hubspotusercontent00.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/Software/Marketing.svg');
+}
+
+#img2 {
+    background: url('https://f.hubspotusercontent00.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/Software/Marketing.svg');
+}
+
+#img3 {
+    background: url('https://f.hubspotusercontent00.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/Software/Sales.svg');
+}
+
+#img4 {
+    background: url('https://f.hubspotusercontent00.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/Software/Service.svg');
+}
+
+#img5 {
+    background: url('https://f.hubspotusercontent00.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/Software/CMS.svg');
+}
+
+#drop1 div:nth-child(2n+0) span {
+    font-size: 12.5px;
 }
 
 #drop2 .col3 {
@@ -697,6 +744,15 @@ Bonus
     padding-left: 2px;
 }
 
+#drop1 {
+    width: 550px;
+    height: 570px;
+    transform: translate(-15px, -15px);
+    line-height: normal;
+    padding: 25px;
+    margin-left: 0px;
+}
+
 #drop2 {
     transform: translate(-500px, -15px);
     width: 900px;
@@ -717,18 +773,35 @@ Bonus
     transform: translate(-510px, -15px);
 }
 
+#dropLang {
+    width: 120px;
+    height: 250px;
+    transform: translate(-10px, -15px);
+    line-height: 240%;
+}
+
+#drop1:after, #drop1:before {
+    right: 434px;
+    top: -21px;
+}
+
 #drop2:after, #drop2:before {
     right: 284px;
     top: -21px;
 }
 
 #drop3:after, #drop3:before {
-    right: 110px;
+    right: 112px;
     top: -21px;
 }
 
 #drop4:after, #drop4:before {
-    right: 31px;
+    right: 30px;
+    top: -21px;
+}
+
+#dropLang:after, #dropLang:before {
+    right: 30px;
     top: -21px;
 }
 
