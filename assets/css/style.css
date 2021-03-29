@@ -600,4 +600,5 @@ footer .imgSite {
     background-repeat: no-repeat;
     width: 120px;
     height: 50px;
+    filter: opacity(0.75);
 }

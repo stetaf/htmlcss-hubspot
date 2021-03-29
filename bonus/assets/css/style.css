@@ -604,6 +604,7 @@ footer .imgSite {
     background-repeat: no-repeat;
     width: 120px;
     height: 50px;
+    filter: opacity(0.75);
 }
 
 /* 
@@ -778,6 +779,7 @@ Bonus
     height: 250px;
     transform: translate(-10px, -15px);
     line-height: 240%;
+    padding-top: 5px;
 }
 
 #drop1:after, #drop1:before {
