@@ -50,6 +50,10 @@ ul li  {
     float: left;
 }
 
+.f15 {
+    font-size: 15px;
+}
+
 .alignCenter {
     text-align: center !important;
 }
