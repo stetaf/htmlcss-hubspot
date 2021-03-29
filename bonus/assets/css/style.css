@@ -632,6 +632,10 @@ Bonus
     text-transform: unset;
 }
 
+.dropdownContent p {
+    font-size: 13px !important;
+}
+
 .dropdownContent .col3 {
     width: calc(100%/3);
 }
@@ -667,10 +671,22 @@ Bonus
     padding-left: 2px;
 }
 
+#drop3 {
+    width: 710px;
+    height: 150px;
+    transform: translateX(-500px);
+    padding: 20px 35px;
+}
+
 #drop4 {
     width: 620px;
     height: 300px;
     margin: -15px 0 0 -510px;
+}
+
+#drop3:after, #drop3:before {
+    right: 110px;
+    top: -21px;
 }
 
 #drop4:after, #drop4:before {
