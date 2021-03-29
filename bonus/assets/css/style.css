@@ -805,10 +805,45 @@ Bonus
     top: -21px;
 }
 
+/* Bot help */
+.helpBot {
+    position: fixed;
+    top: 75vh;
+    left: 84vw;
+    width: 275px;
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    z-index: 2;
+    box-shadow: 0 0 9px rgb(34, 34, 34);
+}
+
+.helpBot p {
+    line-height: 25px;
+    margin: 15px 5px 0px 5px;
+}
+
+.crossX {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 18px;
+}
+
+.botImg{
+    background-image: url(../img/bot-avatar.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -20px;
+    right: 42%;
+}
+
 /* Chat icon */
 .helpChat {
     position: fixed;
-    top: 84vh;
+    top: 90vh;
     left: 95vw;
     background: #364d5f;
     text-align: center;
@@ -826,5 +861,6 @@ Bonus
     width: 60px;
     background-repeat: no-repeat;
     background-size: 35px;
-    background-position: center;
+    background-position:center;
 }
+
