@@ -99,7 +99,6 @@ ul li  {
 
 .btnSupp {
     background-color: #DADEE0;
-    color: #364d5f;
     padding: 10px 9px;
     border-radius: 5px;
     font-size: 14px;
@@ -131,7 +130,6 @@ ul li  {
 body {
     background-color: #f4f9fd;
     color: #364d5f;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -157,7 +155,6 @@ header .topRow {
 .smallGlobe {
     vertical-align: text-top;
     font-size: 17px;
-    color: #364d5f;
 }
 
 .col2 span {
@@ -206,17 +203,13 @@ header .topRow {
     margin: 0 10px;
 }
 
-.bottomRMenu a {
-    color: #364d5f;
-}
-
 .bottomRMenu i {
     margin-left: 10px;
 }
 
 /* Introduction */
 .imgBck {
-    background: url(../img/jumbotron.png);
+    background: url("../img/jumbotron.png");
     height: 650px;
     background-position-x: 100%;
     background-repeat: no-repeat;
