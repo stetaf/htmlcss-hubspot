@@ -805,11 +805,17 @@ Bonus
     top: -21px;
 }
 
+/* 
+Helper
+*/
+.siteHelper {
+    position: fixed;
+    top: 76vh;
+    left: 83vw;
+}
+
 /* Bot help */
 .helpBot {
-    position: fixed;
-    top: 75vh;
-    left: 84vw;
     width: 275px;
     background: white;
     border-radius: 5px;
@@ -842,9 +848,7 @@ Bonus
 
 /* Chat icon */
 .helpChat {
-    position: fixed;
-    top: 90vh;
-    left: 95vw;
+    position: relative;
     background: #364d5f;
     text-align: center;
     width: 60px;
@@ -852,7 +856,9 @@ Bonus
     font-size: 35px;
     z-index: 2;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgb(34, 34, 34);
+    box-shadow: 0 0 10px rgb(34 34 34);
+    right: -78%;
+    margin-top: 12px;
 }
 
 .chatIcon {
