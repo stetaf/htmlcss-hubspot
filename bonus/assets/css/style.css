@@ -615,10 +615,13 @@ Bonus
     position: relative;
 }
 
+.dropdownContent, .dropdownContent hr {
+    border: 1px solid rgb(203, 214, 226);
+}
+
 .dropdownContent {
     display: none;
     position: absolute;
-    border: 1px solid rgb(203, 214, 226);
     border-radius: 4px;
     background-color: white;
     text-align: left;
@@ -630,18 +633,41 @@ Bonus
 
 .dropdownContent h4 {
     text-transform: unset;
+    font-size: unset;
 }
 
 .dropdownContent p {
     font-size: 13px !important;
+    margin: 0;
+    line-height: 20px;
 }
 
 .dropdownContent .col3 {
     width: calc(100%/3);
+    height: unset;
+}
+
+#drop2 .col3 {
+    height: 100px;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+#drop2 h4 {
+    margin-bottom: 5px;
+}
+
+#drop2 p {
+    width: 96%;
 }
 
 .dropdownContent > a {
     line-height: 30px;
+}
+
+.dropdownContent .row {
+    float: left;
+    width: 100%;
 }
 
 #menu1:hover #drop1, #menu2:hover #drop2, #menu3:hover #drop3, #menu4:hover #drop4, #menuLang:hover #dropLang {
@@ -671,17 +697,29 @@ Bonus
     padding-left: 2px;
 }
 
+#drop2 {
+    transform: translate(-500px, -15px);
+    width: 900px;
+    height: 350px;
+    padding: 5px 40px;
+}
+
 #drop3 {
     width: 710px;
     height: 150px;
-    transform: translateX(-500px);
+    transform: translate(-500px, -15px);
     padding: 20px 35px;
 }
 
 #drop4 {
     width: 620px;
     height: 300px;
-    margin: -15px 0 0 -510px;
+    transform: translate(-510px, -15px);
+}
+
+#drop2:after, #drop2:before {
+    right: 284px;
+    top: -21px;
 }
 
 #drop3:after, #drop3:before {
