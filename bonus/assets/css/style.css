@@ -50,6 +50,10 @@ ul li  {
     float: left;
 }
 
+.f15 {
+    font-size: 15px;
+}
+
 .alignLeft {
     text-align: left !important;
 }
@@ -614,15 +618,22 @@ Bonus
 .dropdownContent {
     display: none;
     position: absolute;
-    border-width: 0 1px 1px 1px;
-    border-style: solid;
-    border-color: #364d5f;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(203, 214, 226);
+    border-radius: 4px;
     background-color: white;
-    line-height: normal;
     text-align: left;
     z-index: 2;
+    padding-left: 25%;
+    line-height: 280%;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.dropdownContent h4 {
+    text-transform: unset;
+}
+
+.dropdownContent .col3 {
+    width: calc(100%/3);
 }
 
 .dropdownContent > a {
@@ -631,6 +642,40 @@ Bonus
 
 #menu1:hover #drop1, #menu2:hover #drop2, #menu3:hover #drop3, #menu4:hover #drop4, #menuLang:hover #dropLang {
     display: block;
+}
+
+.dropdownContent:before {
+    content: "";
+    position: absolute;
+    border-color: rgb(203, 214, 226);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.dropdownContent:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: rgb(203, 214, 226);
+    z-index: 0;
+    padding-left: 2px;
+}
+
+#drop4 {
+    width: 620px;
+    height: 300px;
+    margin: -15px 0 0 -510px;
+}
+
+#drop4:after, #drop4:before {
+    right: 31px;
+    top: -21px;
 }
 
 /* Chat icon */
