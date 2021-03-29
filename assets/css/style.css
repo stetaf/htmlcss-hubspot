@@ -50,6 +50,10 @@ ul li  {
     float: left;
 }
 
+.alignCenter {
+    text-align: center !important;
+}
+
 .alignLeft {
     text-align: left !important;
 }
@@ -258,10 +262,6 @@ header .topRow {
 }
 
 /* Products */
-.mainProducts > .container {
-    text-align: center;
-}
-
 .mainProducts > .container img {
     width: 20%;
     margin-top: 5%;
@@ -392,7 +392,6 @@ header .topRow {
 
 .numbersIntro {
     padding-top: 50px;
-    text-align: center;
     color: white;
 }
 
@@ -451,9 +450,9 @@ header .topRow {
     vertical-align: text-bottom;
 }
 
-/*
+/************************
     Bottom 
-*/
+*************************/
 .bottomSec {
     height: 760px;
 }
@@ -553,7 +552,6 @@ footer .topRow {
 
 footer .bottomRow {
     height: 30%;
-    text-align: center;
 }
 
 footer .col4 {
