@@ -1,4 +1,6 @@
-/* Utility */
+/************************
+    Utility 
+*************************/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -134,7 +136,9 @@ ul li  {
     width: 450px;
 }
 
-/* Page */
+/************************
+    Page 
+*************************/
 body {
     min-width: 1550px;
     background-color: #f4f9fd;
@@ -534,10 +538,7 @@ header .topRow {
     width: 340px;
 }
 
-/* 
-    Footer
-*/
-
+/* Footer */
 footer {
     background-color: #364d5f;
     color:#DADEE0 !important;
