@@ -343,6 +343,10 @@ header .topRow {
     transform: translate(0, 45%);
 }
 
+.hubCrm h4 {
+    font-size: 17px;
+}
+
 .horizProduct li {
     margin-right: 15px;
 }
